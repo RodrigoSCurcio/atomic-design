@@ -1,4 +1,6 @@
 
+![atomic-project](https://github.com/RodrigoSCurcio/atomic-design/assets/59969422/6742594e-6f97-4894-a6cd-8def60441426)
+
 > Status: In Progress 🚧
 
 ## Technologies Used
