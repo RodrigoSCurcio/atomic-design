@@ -1,6 +1,8 @@
-import Button from "../../atoms/Button";
-import Input from "../../atoms/Input";
+// Components
 import { SLoginForm } from "./style";
+import Button from "components/atoms/Button";
+// Styles
+import Input from "components/atoms/Input";
 
 export default function LoginForm() {
   return (

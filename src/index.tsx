@@ -1,14 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import AuthBlendPage from './components/pages/AuthBlendPage';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import AuthBlendPage from "./components/pages/AuthBlendPage";
+import AuthProvider from "context/AuthProvider";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <AuthBlendPage />
+    <AuthProvider>
+      <AuthBlendPage />
+    </AuthProvider>
   </React.StrictMode>
 );
-

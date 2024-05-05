@@ -16,7 +16,8 @@ export const SInput = styled.div`
     border: 1px solid red;
 
     height: 20px;
-
     padding-left: 8px;
+
+    outline: none;
   }
 `;

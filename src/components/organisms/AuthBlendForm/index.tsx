@@ -1,12 +1,19 @@
-import { useState } from "react";
-import Button from "../../atoms/Button";
-import LoginForm from "../../molecules/LoginForm";
-import RegisterForm from "../../molecules/RegisterForm";
+// React
+import { useContext } from "react";
+// Styles
 import { SAuthBlendForm } from "./style";
+// Components
 import Logo from "components/atoms/Logo";
+import LoginForm from "components/molecules/LoginForm";
+import RegisterForm from "components/molecules/RegisterForm";
+import Button from "components/atoms/Button";
+// Context
+import AuthContext, { IFormAuthContext } from "context";
 
 export default function AuthBlendForm() {
-  const [login, setLogin] = useState(true);
+  const context  = useContext(AuthContext) as IFormAuthContext;
+  const { login, setLogin } = context;
+
   return (
     <SAuthBlendForm>
       <Logo width={120} height={110} />
