@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SAuthBlend = styled.div`
-  background: #f14949;
+  background: #c96060;
 
   .page {
     height: 100vh;
