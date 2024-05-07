@@ -1,5 +1,5 @@
 
-![atomic-project](https://github.com/RodrigoSCurcio/atomic-design/assets/59969422/6742594e-6f97-4894-a6cd-8def60441426)
+![image](https://github.com/RodrigoSCurcio/atomic-design/assets/59969422/da2a7bdd-5bde-4e87-be7f-505642873654)
 
 > Status: In Progress 🚧
 
