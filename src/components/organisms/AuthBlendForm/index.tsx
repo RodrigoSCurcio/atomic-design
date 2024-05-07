@@ -16,7 +16,7 @@ export default function AuthBlendForm() {
 
   return (
     <SAuthBlendForm>
-      <Logo width={120} height={110} />
+      <Logo width={110} height={110} />
 
       {login && <LoginForm />}
       {!login && <RegisterForm />}
