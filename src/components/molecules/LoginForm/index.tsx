@@ -14,7 +14,7 @@ export default function LoginForm() {
       <Label text="Password" />
       <Input required type="password" />
       
-      <Button>Login</Button>
+      <Button type="button">Login</Button>
     </SLoginForm>
   );
 }

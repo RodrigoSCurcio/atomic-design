@@ -5,5 +5,9 @@ export const SRegisterForm = styled.form`
   flex-direction: column;
   gap: 8px 0;
 
-  background-color: transparent;
+  background: #c96060;
+
+  border-radius: 15px;
+
+  padding: 5px;
 `;

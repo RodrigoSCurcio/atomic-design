@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
-export const SLabel = styled.label`
+interface ISLabel {
+  color?: string;
+}
+
+export const SLabel = styled.label<ISLabel>`
   font-size: 16px;
   font-weight: 700;
 
-  color: #fff;
+  color: ${({ color }) => color ? color : "#fff"};
 `;

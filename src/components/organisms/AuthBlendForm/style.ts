@@ -13,7 +13,8 @@ export const SAuthBlendForm = styled.div`
   border-radius: 16px;
   border: 1px solid #f20e0e;
   box-shadow: 4px 4px 4px 4px #00000040;
-  
+
+  background: #c96060;
 
   padding: 16px;
 

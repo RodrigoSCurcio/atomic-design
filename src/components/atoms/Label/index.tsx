@@ -1,5 +1,11 @@
 import { SLabel } from "./style";
 
-export default function Label({ text }: { text: string }) {
-  return <SLabel>{text}</SLabel>;
+export default function Label({
+  text,
+  color,
+}: {
+  text: string;
+  color?: string;
+}) {
+  return <SLabel color={color}>{text}</SLabel>;
 }

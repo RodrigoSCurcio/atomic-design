@@ -17,7 +17,7 @@ export default function RegisterForm() {
       <Label text="Password" />
       <Input type="password" />
       
-      <Button>Register</Button>
+      <Button type="button">Register</Button>
     </SRegisterForm>
   );
 }

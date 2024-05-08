@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const SHeader = styled.aside`
-  width: 100%;
   padding: 5px;
 
   display: flex;
